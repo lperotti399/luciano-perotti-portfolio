@@ -1,37 +1,65 @@
 
 body, header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+    
 }
 
+header{
+    height: auto;
+}
+body {
+    margin: 100px;
+}
 .right-header {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-
+    gap: 10px;   
 }
+
+#contactme-button {
+    padding: 5px;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid darkslategray;
+  }
 .header-container {
     display: flex;
     justify-content: space-between;
 
 }
-
+.greeting-text {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    padding: 50px 100px 50px 50px;
+    flex-wrap: wrap;
+    
+}
 .info-containter{
         display: flex;
-
 }
 
 .info-text {
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column; 
+        
 }
 
 .info-image {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        
 }
 
 .main{
     display: flex;
-    
 }
+#aboutmelink, #projectslink, #contactmelink {
+    color: darkcyan
+}
+
